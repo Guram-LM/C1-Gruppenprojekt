@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+/* section-1 G.Lomadze */
 .section-1 {
     display: flex;
     justify-content: flex-start;
@@ -60,3 +61,4 @@
     text-align: left;
     color: #FFFFFF;
 }
+/* section-1 G.Lomadze */
