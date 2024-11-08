@@ -67,6 +67,9 @@
     transition: transform 0.3s ease;
 }
 .header-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 143.81px;
     width: 100%;
     height: 35.95px;
@@ -77,6 +80,7 @@
     transition: transform 0.3s ease;
 }
 .header-button a {
+    display: block;
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
@@ -89,6 +93,7 @@
     height: 47px;
 }
 /* header G.Lomadze*/
+
 /* header hover efekt G.Lomadze*/
 .header-nav ul li a:hover {
     color: #4CE0D7;
