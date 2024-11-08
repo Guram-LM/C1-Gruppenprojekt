@@ -475,6 +475,108 @@ hr {
 }
 /* section 2.2ana lomidze */
 
+.section-4 {
+    display: flex;
+    max-width: 1204px;
+    width: 100%;
+    height: 670px;
+    margin: 0px auto 88px;
+    gap: 60px;
+}
+.card-1 {
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    gap: 23px;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+.info-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 85px 28.75px 33.24px;
+}
+h3 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #262626;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.name-daten{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#BCBCBC;
+}
+.info-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 60px 30px 35px;
+    gap: 20px;
+}
+.info-1 {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+
+.read-more {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none; 
+    font-size: 12px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4CE0D7; 
+    gap: 7px;
+    transition: color 0.3s ease; 
+}
+
+.read-more img {
+    width: 21px; 
+    height: 13px;
+    transition: transform 0.3s ease;
+}
+
+.read-more:hover {
+    color: #333;
+}
+
+.read-more:hover img {
+    transform: scale(1.2); 
+}
+
+
+
+
+
+
+
 /* footer G.Lomadze */
 .footer {
     display: flex;
