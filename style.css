@@ -475,6 +475,7 @@ hr {
 }
 /* section 2.2ana lomidze */
 
+/* section-4 G.Lomadze */
 .section-4 {
     display: flex;
     max-width: 1204px;
@@ -487,10 +488,39 @@ hr {
     display:flex;
     flex-direction: column;
     overflow: hidden;
+    position: relative;
     background-color: #FFFFFF;
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
     gap: 23px;
+}
+.card-button {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 9.29px 0px;
+    position: absolute;
+    top: 20.67px;
+    left: 34.14px;
+    width: 175.44px;
+    height: 36.49px;
+    display: inline-block;
+    background-color: #262626;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    transition: all 0.3s ease;
+}
+.card-button:hover {
+    background-color: #4CE0D7; 
+    color: #FFFFFF; 
+    transform: scale(1.05); 
 }
 .card-content {
     display: flex;
@@ -539,8 +569,6 @@ p {
     align-items: center;
     gap: 28px;
 }
-
-
 .read-more {
     display: inline-flex;
     align-items: center;
@@ -556,26 +584,18 @@ p {
     gap: 7px;
     transition: color 0.3s ease; 
 }
-
 .read-more img {
     width: 21px; 
     height: 13px;
     transition: transform 0.3s ease;
 }
-
 .read-more:hover {
     color: #333;
 }
-
 .read-more:hover img {
     transform: scale(1.2); 
 }
-
-
-
-
-
-
+/* section-4 G.Lomadze */
 
 /* footer G.Lomadze */
 .footer {
