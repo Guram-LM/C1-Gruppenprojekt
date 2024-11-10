@@ -94,3 +94,19 @@ body {
     height: 47px;
 }
 /* header G.Lomadze*/
+/* header hover efekt G.Lomadze*/
+.header-nav ul li a:hover {
+    color: #4CE0D7;
+    transform: scale(1.2);
+}
+.logo h2:hover{
+    transform: scale(1.2);
+}
+.header-button:hover {
+    transform: scale(1.1);
+
+}
+.button-search img:hover {
+    transform: scale(1.1);
+}
+/* header hover efekt G.Lomadze*/
