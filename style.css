@@ -324,3 +324,178 @@ hr {
     margin-bottom: 52.5px;
 }
 /* section 2.1 ana lomidze */
+/* section 2.2 ana lomidze */
+.fashion {
+    margin: 0px auto 97px;
+    max-width: 1204px;
+    width: 100%;
+    height: 698px;
+    background-color: #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+}
+.photo {
+    position: relative;
+    display: inline-block;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+.photo img {
+    display: block; 
+    width: 100%; 
+    height: auto; 
+}
+.top-left-button {
+    position: absolute; 
+    top: 23.34px; 
+    left: 43.27px; 
+    padding: 10.66px 81.73px 9.31px 81.6px;
+    font-family:"Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: rgba(38, 38, 38, 1);
+    color: rgba(255, 255, 255, 1);
+    transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+    
+}
+.top-left-button:hover {
+    transform: scale(1.1); 
+    color: #ffffff; 
+    background-color: #4CE0D7; 
+}
+.photo {
+    margin-bottom: 23.34px;
+}
+.paragraphs {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+.small {
+    display:flex;
+    max-height: 700px;
+    margin: 0px 64px 29.59px 64.34px;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.smal-infocard {
+    display: flex;
+    align-items: center;
+    gap: 49px;
+}
+.mallor {
+    display: flex;
+    align-items: center;
+    gap: 20.99px;
+}
+.paragraph1 {
+    width: 168px;
+    height: 21px;
+    top: 1678px;
+    left: 269px;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(188, 188, 188, 1);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+.paragraph2 {
+    width: 167px;
+    height: 21px;
+    top: 1678px;
+    left: 486px;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(188, 188, 188, 1);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+.red-paragraph{
+    width: 216px;
+    height: 23px;
+    top: 1680px;
+    left: 1042px;
+    gap: 0px;
+    opacity: 0px;
+    color:rgba(242, 94, 94, 1);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.24em;
+    text-align: left;
+}
+.title {
+    padding-left: 64px;
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    color: rgba(38, 38, 38, 1);
+    margin-bottom: 23px;
+}
+.lorem {
+    max-width: 1033px;
+    height: 73px;
+    top: 1803px;
+    left: 182px;
+    gap: 0px;
+    opacity: 0px;
+    font-family:"Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 0px 0px 30px 64px;
+}
+.arrow-container {
+    display: flex;
+    align-items: center; 
+    margin-left: 64px;
+    gap: 10px; 
+    transition: color 0.3s ease; 
+}
+.arrow-ReadMore {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none; 
+    font-size: 12px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(76, 224, 215, 1);
+    gap: 23.34px;
+    transition: color 0.3s ease; 
+}
+.arrow-ReadMore:hover {
+    color: #333;
+}
+
+.arrow-ReadMore img {
+    width: 21.25px; 
+    height: 13.33px;
+    transition: transform 0.3s ease;
+}
+
+.arrow-ReadMore:hover img {
+    transform: scale(1.2); 
+}
+
+/* section 2.2ana lomidze */
