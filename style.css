@@ -628,3 +628,77 @@ p {
     transform: scale(1.2); 
 }
 /* section-3 G.Lomadze */
+
+/* section-5 Tata Maisuradze */
+.section-5 {
+    display: flex;
+    flex-direction: column;
+    max-width: 1204px;
+    width: 100%;
+    height: 1200px;
+    margin: 0px auto 69px;
+    gap: 48px;
+
+}
+.section5-cards {
+    display: flex;
+    position: relative;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card-img {
+    max-width: 547.51px;
+    width: 100%;
+    height: 367.41px;
+}
+.cardcontent {
+    display: flex;
+    flex-direction: column;
+}
+.info-card-s5 {
+    display: flex;
+    max-width: 490px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25.58px 122px 35.66px 45.95px;
+}
+
+.section-5 .section5-cards .info-text-s5 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 0px 68px 0px 45.49px;
+}
+.card-but {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 9.29px 0px;
+    position: absolute;
+    top: 25.37px;
+    left: 34.14px;
+    width: 175.44px;
+    height: 36.49px;
+    display: inline-block;
+    background-color: #262626;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    transition: all 0.3s ease;
+}
+.card-but:hover {
+    background-color: #4CE0D7; 
+    color: #FFFFFF; 
+    transform: scale(1.05); 
+}
+
+/* section-5 Tata Maisuradze */
