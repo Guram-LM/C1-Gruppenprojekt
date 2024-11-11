@@ -465,6 +465,7 @@ hr {
     
 }
 /* section 2.1 ana lomidze */
+
 /* section 2.2 ana lomidze */
 .fashion {
     margin: 0px auto 97px;
@@ -637,6 +638,136 @@ hr {
 
 .arrow-ReadMore:hover img {
     transform: scale(1.2); 
+}
+/* Media query for mobile  */
+@media screen and (max-width: 767px) {
+
+    .fashion {
+        width: 100%;
+        max-width: 430px; 
+        height: 550px;
+        margin: 0 auto 40px;
+        border-radius: 15px;
+        padding: 20px; 
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        border-radius: 20px;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05);
+        background-color: #FFFFFF;
+    }
+    
+    .card img {
+        width: 80%; 
+        height: auto;
+        margin-bottom: 10px; 
+    }
+    
+    .card h3,
+    .card p {
+        text-align: center; 
+        margin-bottom: 10px;
+    }
+
+    .photo img {
+        width: 100%; 
+        height: auto;
+    }
+
+    .small {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin: 20px 0;
+    }
+
+    .smal-infocard {
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        width: 100%;
+        max-width: 430px; 
+        margin: 0 auto; 
+    }
+
+    .mallor {
+        display: flex; 
+        align-items: center; 
+        gap: 5px; 
+
+    }
+
+    .paragraph1,
+    .paragraph2,
+    .red-paragraph {
+        font-size: 12px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .title {
+        font-size: 18px;
+        line-height: 28px;
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .lorem-ipsum {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0px auto;
+        text-align: left;
+    }
+    .lorem {
+        display: flex;
+        margin: 0px auto;
+    }
+
+    .arrow-container {
+        display: flex;
+        justify-content: start;
+        margin: 60px auto 0px;
+    }
+
+    .arrow-ReadMore {
+        font-size: 10px;
+        gap: 15px;
+    }
+    .card-but {
+        transform: scale(1.05); 
+        }
+
+
+    .arrow-ReadMore img {
+        max-width: 30px; 
+        max-height: 15px; 
+        object-fit: contain; 
+        transition: transform 0.3s ease;
+    }
+
+    .top-left-button {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 10px; 
+        padding: 5px 0px; 
+        width: 100px; 
+        height: 25px; 
+        border-radius: 30px; 
+        }
+        
+    .top-left-button {
+        transform: scale(1.05); 
+        }
+
 }
 
 /* section 2.2ana lomidze */
