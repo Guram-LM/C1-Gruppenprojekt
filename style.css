@@ -414,6 +414,56 @@ button:active {
 hr {
     margin-bottom: 52.5px;
 }
+/* Media queries for mobile */
+@media screen and (max-width: 767px) {
+    
+    .T-sec {
+        max-width: 430px;
+        width: 100%;
+        margin: 0 auto 40px;
+        justify-content: start;
+        text-align: center;
+        color: #ffffff;
+    }
+   
+    .container-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .card {
+        width: 90%; 
+        max-width: 300px; 
+        height: auto; 
+        padding: 20px 0; 
+    }
+
+    .card img {
+        width: 60px; 
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+   
+    .card h3 {
+        font-size: 18px; 
+        margin-bottom: 15px;
+    }
+   
+    .styled-button button {
+        width: 120px;
+        height: 36px;
+        font-size: 14px;
+    }
+
+    hr {
+        margin: 20px auto 40px;
+        max-width: 430px;
+        width: 100%;
+    }
+    
+}
 /* section 2.1 ana lomidze */
 /* section 2.2 ana lomidze */
 .fashion {
