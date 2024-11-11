@@ -216,6 +216,48 @@ body {
     text-align: left;
     color: #FFFFFF;
 }
+/* Media query for mobile  */
+@media screen and (max-width: 767px) {
+    .section-1 {
+        height: auto; 
+        padding: 20px; 
+        background-position: center;
+        margin-bottom: 40px; 
+    }
+
+    .content-s1 {
+        position: static; 
+        margin: 0;
+        align-items: flex-start; 
+        text-align: left;
+        padding-top: 40px; 
+    }
+    .content-s1 h1 {
+        font-size: 32px; 
+        line-height: 42px;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+
+    .content-s1 h1 span {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .content-s1 h5 {
+        font-size: 10px; 
+        line-height: 16px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .content-s1 p {
+        font-size: 16px; 
+        line-height: 24px;
+        text-align: left;
+    }
+   
+}
 /* section-1 G.Lomadze */
 /* section 2.1 ana lomidze */
 .sectiot-2 {
