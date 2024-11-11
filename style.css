@@ -1068,6 +1068,82 @@ p {
     color: #FFFFFF; 
     transform: scale(1.05); 
 }
+/* Media query for mobile  */
+@media screen and (max-width: 767px) {
+
+    .section-5 {
+        display: flex;
+        flex-direction: column;
+        max-width: 430px; 
+        width: 100%; 
+        height: auto;
+        margin: 0 auto 60px;
+        gap: 30px;
+        
+    }
+
+    .section5-cards {
+        display: flex;
+        flex-direction: column; 
+        width: 100%; 
+        height: auto;
+        background-color: #FFFFFF;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .info-card-s5 {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .info-1 {
+        display: flex;
+        align-items: center;
+        white-space: nowrap; 
+        gap: 10px;
+    }
+   
+    .card-img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .card-img img {
+        width: 100%;
+        height: auto;
+        }
+
+    .cardcontent {
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin-left: -10px;
+    }
+
+
+    .info-text-s5 h3,
+    .info-text-s5 p {
+        margin: 0px; 
+    }
+
+    .card-but {
+        font-size: 10px; 
+        padding: 5px 0px; 
+        width: 100px; 
+        height: 25px; 
+        border-radius: 30px; 
+    }
+
+    .info-text-s5    
+    .read-more {
+        margin-bottom: 30px;
+    }
+}
 
 /* section-4 Tata Maisuradze */
 
